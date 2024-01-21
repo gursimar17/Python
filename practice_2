@@ -1,0 +1,6 @@
+# Create a program that takes a temperature in celsius and converts it to kelvin
+C=int(input("Enter the temperature in celcius="))
+F=(C*1.8)+32
+K=C+273
+print("Temperature in Fahrenheit=",F)
+print("Temperature in Kelvin=",K)
