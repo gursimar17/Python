@@ -1,0 +1,10 @@
+# Given a list of numbers, find the sum and average.
+l=[1,2,3,4,5,6,7,8,9,10]
+count=0
+for i in l:
+    count+=i
+print("Sum=",count)
+avg=count/len(l)
+print("Average=",avg)    
+    
+    
