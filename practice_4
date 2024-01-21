@@ -1,0 +1,7 @@
+# Create a function to reverse a given string
+def reverse(s):
+    st=s[::-1] # [::-1] slicing syntax used to reverse a string, list, tuple, etc.
+    print("Reversed String=",st)
+    
+s=input("Enter the string=")
+reverse(s)
