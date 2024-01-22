@@ -1,0 +1,9 @@
+# Given a list of numbers, find the maximum and minimum values
+
+l=[1,2,3,4,5,6,7,8,9,10]
+
+maximum=max(l)
+minimum=min(l)
+
+print(f"{maximum} is the maximum value in the given list")
+print(f"{minimum} is the minimum value in the given list")
