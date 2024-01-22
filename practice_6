@@ -1,0 +1,10 @@
+# Find the area of Rectangle 
+def rectangle(l,w):
+    a=l*w
+    return a
+
+l=float(input("Enter the length="))
+w=float(input("Enter the width="))
+
+area=rectangle(l,w)
+print("Area of Rectangle=",area)
