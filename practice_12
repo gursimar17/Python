@@ -1,0 +1,6 @@
+# Given a list of integers, find the sum of all positive numbers
+l=[10,10,1,1]
+sum=0
+for i in range(0,len(l)):
+    sum=sum+l[i]
+print("Sum=",sum)    
