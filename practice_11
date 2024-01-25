@@ -1,0 +1,7 @@
+# Write a program that converts a given number of days into years, weeks, and days
+DaysInweeks=7
+numberOfdays=int(input("Enter the number of days="))
+years=int(numberOfdays/365)
+weeks=int((numberOfdays%365)/DaysInweeks)
+days=int((numberOfdays%365)%DaysInweeks)
+print("Years=",years,"\nWeeks=",weeks,"\nDays=",days)
